@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Coding Tests Increase the age attribute by 2 1`] = `
+Array [
+  Object {
+    "age": 39,
+    "name": "Roger Federer",
+  },
+  Object {
+    "age": 34,
+    "name": "Rafael Nadal",
+  },
+  Object {
+    "age": 32,
+    "name": "Novak Djokovic",
+  },
+]
+`;
