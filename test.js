@@ -58,4 +58,10 @@ describe('Coding Tests', () => {
     const result = []  
     expect(result).toMatchSnapshot()  
   })
+
+  it('Find average of the numbers in an array', () => {
+    const data = [29.76, 41.85, 46.5]
+    const result = 0
+    expect(result).toMatchSnapshot()
+  })
 })
