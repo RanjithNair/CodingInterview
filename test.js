@@ -28,4 +28,34 @@ describe('Coding Tests', () => {
       const objKeys = []
       expect(objKeys).toMatchSnapshot()
   })
+
+  it('Print all the values of the objects in an array', () => {
+    const obj = {
+        'age': '22',
+        'name': 'ABC',
+        'place': 'Milwaukee',
+        'designation': 'Software Developer'
+    }
+    const objValues = []
+    expect(objValues).toMatchSnapshot()
+  })
+
+  it('Find all the entries whose age is more than 20', () => {
+    let obj = [
+        {
+          name: 'Mark James',
+          age: 18
+        },
+        {
+          name: 'AB Daniels',
+          age: 22
+        },
+        {
+          name: 'Thomas Jeffrey',
+          age: 25
+        }
+      ]
+    const result = []  
+    expect(result).toMatchSnapshot()  
+  })
 })
