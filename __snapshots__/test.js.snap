@@ -26,6 +26,8 @@ Array [
 ]
 `;
 
+exports[`Coding Tests Find average of the numbers in an array 1`] = `39.37`;
+
 exports[`Coding Tests Increase the age attribute by 2 1`] = `
 Array [
   Object {
