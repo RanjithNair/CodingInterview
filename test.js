@@ -18,4 +18,14 @@ describe('Coding Tests', () => {
     expect(obj).toMatchSnapshot()
   })
 
+  it('Print all the keys of the objects in an array', () => {
+      const obj = {
+          'age': '22',
+          'name': 'ABC',
+          'place': 'Milwaukee',
+          'designation': 'Software Developer'
+      }
+      const objKeys = []
+      expect(objKeys).toMatchSnapshot()
+  })
 })

@@ -16,3 +16,12 @@ Array [
   },
 ]
 `;
+
+exports[`Coding Tests Print all the keys of the objects in an array 1`] = `
+Array [
+  "age",
+  "name",
+  "place",
+  "designation",
+]
+`;
